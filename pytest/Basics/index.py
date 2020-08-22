@@ -1,0 +1,43 @@
+print("Hello World")
+x=10
+y=15
+z=15
+a=10
+print(x+y)
+print("Manoj 'Moolchandani'")
+tup={5,10,54,23}
+print(tup)
+PI=3.14
+print(PI)
+print(type(tup))
+print(id(a),id(x))
+c=float(a)
+print(c)
+d=str(y)
+print(d)
+e=int(True)
+print(e)
+print(list(range(10)))
+j=list(range(10,101,2))
+print(j)
+i=complex(a,y)
+print(type(6+9j))
+d={"Manoj":"51910017","Samarth":"51910043","Birju":"51910056"}
+print(d)
+print(d.get("Manoj"))
+print(d.values())
+print(d.keys())
+d.pop("Birju")
+print(d)
+print(d.items())
+print(50**3)
+x+=y
+y=x-y
+x-=y
+print(x,y)
+x^=y
+y=x^y
+x^=y
+print(x,y)
+x,y=y,x#only in python
+print(x,y)

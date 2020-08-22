@@ -1,0 +1,22 @@
+from numpy import *
+
+arr1 = array([[1,2,3,4,5,6],[4,5,6,7,8,9]])
+print(arr1)
+""" print(arr1.dtype)
+print(type(arr1))
+print(arr1.ndim)
+print(arr1.shape)
+print(arr1.size)
+arr2=arr1.flatten()
+print(arr2)
+arr2=arr2.reshape(2,2,3)
+print(arr2)"""
+print(diagonal(arr1))
+arr2 = matrix(arr1)
+print(arr2.min())
+m = matrix('1,2,3;4,5,6;7,8,9')
+n = matrix('1,2,3;4,5,6;7,8,9')
+print(m) 
+print(m+n)
+print(m*n)
+print(diagonal(m))
